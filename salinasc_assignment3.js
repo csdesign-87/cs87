@@ -1,5 +1,7 @@
-for(let i = 1000; i >= 0; i--) {
-	console.log(i);
+let number = 0;
+while(number < 1000) {
+	console.log(number);
+	number++;
 }
 
 for(let i = 0; i <= 10000; i++) { 
@@ -11,11 +13,17 @@ for(let i = 0; i <= 10000; i++) {
 	alert("The loop is done!");
 	}
 
-const number = [1, 2, 3, 4, 5];
-const movies = ["super girl", "spartacus", "walking dead", "bumble bee", "olympus has fallen"]; 
-
-console.log("My # " + number[0] + "favorite tv show is " + movies[0]);
-console.log("My # " + number[1] + "favorite tv show is " + movies[1]);
-console.log("My # " + number[2] + "favorite tv show is " + movies[2]);
-console.log("My # " + number[3] + "favorite tv show is " + movies[3]);
-console.log("My # " + number[4] + "favorite tv show is " + movies[4]);
+for(let i = 0; i <= 5; i++) {
+	if (i = 1) {
+	console.log("My #1 favorite tv show is Super Girl");
+	} else if (i = 2) {
+	console.log("My #2 favorite tv show is Spartacus");
+	} else if (i = 3) {
+	console.log("My #3 favorite tv show is Walking Dead");
+	} else if (i = 4) {
+	console.log("My #4 favorite tv show is Bumble Bee");
+	} else if (i = 5) {
+	console.log("My #5 favorite tv show is Olympus");
+	}
+	
+	
