@@ -5,11 +5,11 @@ while(number < 1000) {
 }
 
 for(let i = 0; i <= 10000; i++) { 
-	if (i = 2500) {
+	if (i <=2500) {
 	alert("quarterway");
-	} else if (i = 5000) {
+	} else if (i <=5000) {
 	alert("halfway");
-	} else if (i = 10000) {
+	} else if (i <=1000) {
 	alert("The loop is done!");
 	}
 }
@@ -17,18 +17,15 @@ for(let i = 0; i <= 10000; i++) {
 const movies = ["super girl", "spartacus", "walking dead", "bumble bee", "olympus has fallen"];
 
 for(let i = 0; i <= 5; i++) {
-	if (i = 1) {
+	if (i <= 1) {
 	console.log("My #1 favorite tv show is " + movies[0]);
-	} else if (i = 2) {
+	} else if (i <= 2) {
 	console.log("My #2 favorite tv show is " + movies[1]);
-	} else if (i = 3) {
+	} else if (i <= 3) {
 	console.log("My #3 favorite tv show is " + movies[2]);
-	} else if (i = 4) {
+	} else if (i <= 4) {
 	console.log("My #4 favorite tv show is " + movies[3]);
-	} else if (i = 5) {
+	} else if (i <= 5) {
 	console.log("My #5 favorite tv show is " + movies[4]);
 	}
-}	
-
-	
-	
+}
